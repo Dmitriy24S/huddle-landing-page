@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background-image: url("images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(257, 40%, 49%);
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0 15px;
+}
+/* logo */
+.logo img {
+  width: 165px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+}
+/* img */
+.illustration img {
+  width: 100%;
+  max-width: 488px;
+  margin-bottom: 40px;
+}
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+main p {
+  font-size: 0.96rem;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+.info-text {
+  max-width: 377px;
+}
+/* button */
+button {
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  color: hsl(257, 40%, 49%);
+  border: none;
+  border-radius: 25px;
+  background-color: #fff;
+  padding: 12px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 5px 0px rgb(0 0 0 / 30%);
+}
+button:hover {
+  cursor: pointer;
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+/* social links  */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 15px;
+}
+.social-links a {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover {
+  border-color: hsl(300, 69%, 63%);
+  color: hsl(300, 69%, 63%);
+}
+/* footer */
+.attribution {
+  margin-top: 10px;
+  font-size: 0.69rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(300, 69%, 71%);
+}
+.attribution a:hover {
+  color: hsl(300, 69%, 63%);
+}
