@@ -108,3 +108,43 @@ a:hover {
 .attribution a:hover {
   color: hsl(300, 69%, 63%);
 }
+/* desktop */
+@media (min-width: 768px) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+    background-size: cover;
+  }
+  /* img desktop */
+  section.illustration {
+    max-width: 768px;
+    width: 60%;
+  }
+  .illustration img {
+    max-width: none;
+  }
+  /* main desktop */
+  main {
+    gap: 40px;
+    min-height: 82vh;
+    flex-direction: row;
+    text-align: left;
+  }
+  main h1 {
+    font-size: 2.1rem;
+  }
+  main p {
+    font-size: 0.96rem;
+  }
+  .info-text {
+    max-width: 435px;
+    width: 40%;
+  }
+  /* social links desktop */
+  .social-links {
+    justify-content: flex-end;
+  }
+  /* footer desktop */
+  .attribution {
+    margin-top: 0px;
+  }
+}
